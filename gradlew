@@ -8,7 +8,7 @@ APP_NAME="Gradle"
 APP_BASE_NAME=$( basename "$0" )
 APP_HOME=$( CDPATH= cd -- "$(dirname -- "$0")" > /dev/null && pwd -P ) || exit
 
-DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
+DEFAULT_JVM_OPTS='-Xmx64m -Xms64m'
 
 warn () { echo "$*" >&2; }
 die () { echo; echo "$*" >&2; echo; exit 1; }
