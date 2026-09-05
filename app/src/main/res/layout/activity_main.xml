@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="系统级悬浮水印" android:textColor="@android:color/black" android:textSize="24sp" android:textStyle="bold" />
+  <TextView android:id="@+id/permissionStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:textSize="14sp" />
+  <Button android:id="@+id/permissionButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="授予悬浮窗权限" />
+  <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:hint="第一行文字"><com.google.android.material.textfield.TextInputEditText android:id="@+id/lineOneInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text" /></com.google.android.material.textfield.TextInputLayout>
+  <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="第二行文字"><com.google.android.material.textfield.TextInputEditText android:id="@+id/lineTwoInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text" /></com.google.android.material.textfield.TextInputLayout>
+  <TextView android:id="@+id/textSizeLabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:textStyle="bold" />
+  <SeekBar android:id="@+id/textSizeSeekBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="28" />
+  <TextView android:id="@+id/opacityLabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textStyle="bold" />
+  <SeekBar android:id="@+id/opacitySeekBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="90" />
+  <TextView android:id="@+id/spacingLabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textStyle="bold" />
+  <SeekBar android:id="@+id/spacingSeekBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="180" />
+  <Button android:id="@+id/startStopButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" />
+ </LinearLayout>
+</ScrollView>
