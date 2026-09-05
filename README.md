@@ -116,6 +116,27 @@ Watermark settings are stored locally using `SharedPreferences`.
 This project is developed with Kotlin and is primarily intended for learning, research, and personal use.
 
 ---
+## 致谢 · Credits
+
+特别感谢以下开源项目与作者：
+
+### Miuix
+
+感谢 **Miuix** 作者及贡献者，为本项目提供了优秀的 Android UI 组件与设计基础，使 XUELi Watermark Tool 能够拥有更加现代化的界面体验。
+
+Special thanks to the **Miuix** authors and contributors for providing an excellent Android UI framework and design foundation.
+
+### Kyant0 / AndroidLiquidGlass
+
+特别感谢 **Kyant0**，以及其 **AndroidLiquidGlass / Backdrop** 项目。
+
+本项目的 Liquid Glass 风格效果与部分交互实现参考并使用了相关开源技术。
+
+Special thanks to **Kyant0** and the **AndroidLiquidGlass / Backdrop** project, which provided the foundation and inspiration for the Liquid Glass visual effects and interactions used in this project.
+
+感谢所有开源项目的作者与贡献者。
+Thanks to all open-source authors and contributors who make projects like this possible.
+
 
 <div align="center">
 
