@@ -1,5 +1,6 @@
 package com.example.watermarkoverlay
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -11,10 +12,12 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import top.yukonga.miuix.kmp.basic.Button
 import top.yukonga.miuix.kmp.basic.ButtonDefaults
-import top.yukonga.miuix.kmp.basic.Slider
+import com.kyant.backdrop.backdrops.rememberCanvasBackdrop
+import com.kyant.backdrop.catalog.components.LiquidSlider
 import top.yukonga.miuix.kmp.basic.Text
 import top.yukonga.miuix.kmp.basic.TextField
 import top.yukonga.miuix.kmp.theme.ColorSchemeMode
@@ -56,7 +59,7 @@ private fun WatermarkScreen(
     onStopWatermark: () -> Unit,
 ) {
     Column(
-        modifier = Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(24.dp),
+        modifier = Modifier.fillMaxSize().background(Color.White).verticalScroll(rememberScrollState()).padding(24.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
         Text(text = "悬浮水印")
@@ -111,11 +114,14 @@ private fun SettingSlider(
 ) {
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
         Text(text = label)
-        Slider(
-            value = value,
+        LiquidSlider(
+            value = { value },
             onValueChange = onValueChange,
             valueRange = valueRange,
-            steps = steps,
+            visibilityThreshold = 0.01f,
+            backdrop = rememberCanvasBackdrop {
+                drawRect(color = Color.White)
+            },
             modifier = Modifier.fillMaxWidth(),
         )
     }

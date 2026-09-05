@@ -1,4 +1,4 @@
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+﻿import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     id("com.android.application")
@@ -27,4 +27,6 @@ dependencies {
     implementation("androidx.activity:activity-compose:1.10.1")
     implementation("top.yukonga.miuix.kmp:miuix-ui-android:0.9.0")
     implementation("top.yukonga.miuix.kmp:miuix-icons-android:0.9.0")
+    implementation("io.github.kyant0:backdrop:2.0.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
 }
