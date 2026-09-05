@@ -4,6 +4,7 @@
 
 # XUELi Watermark Tool
 
+轻量级 Android 悬浮水印工具
 A lightweight Android floating watermark tool.
 
 [![Release](https://img.shields.io/github/v/release/Eason206/XUELiWatermarkTool?style=flat-square)](https://github.com/Eason206/XUELiWatermarkTool/releases)
@@ -12,88 +13,107 @@ A lightweight Android floating watermark tool.
 
 </div>
 
-## About
+## 简介 · About
 
-**XUELi Watermark Tool** 是一款轻量级 Android 悬浮水印工具，用于在屏幕上显示自定义双行文字水印。
+**XUELi Watermark Tool** 是一款轻量级 Android 悬浮水印工具，可以在屏幕上显示自定义的双行文字水印。
 
-目前版本为 **2.0.0**，采用全新的现代化 UI，并加入 Liquid Glass 风格交互。
+**XUELi Watermark Tool** is a lightweight Android floating watermark application that displays customizable two-line text overlays.
 
-XUELi Watermark Tool is a lightweight Android floating watermark application that displays customizable two-line text overlays.
+当前最新版本为 **2.0.0**。
 
-Version **2.0.0** introduces a completely redesigned interface with a modern visual style and Liquid Glass-inspired interactions.
+The current version is **2.0.0**.
 
-## Features
+## 功能 · Features
 
-* Custom two-line watermark / 自定义双行水印
-* Adjustable font size / 可调字体大小
-* Adjustable opacity / 可调透明度
-* Adjustable line spacing / 可调间距
-* Floating overlay / 悬浮窗显示
-* Non-interactive overlay / 不拦截下方应用触摸操作
-* Modern Compose UI / 现代化 Compose UI
-* Liquid Glass-inspired interactions / Liquid Glass 风格交互
-* Android 8.0+ support / 支持 Android 8.0+
+* 自定义双行水印 · Custom two-line watermark
+* 调整字体大小 · Adjustable font size
+* 调整透明度 · Adjustable opacity
+* 调整文字间距 · Adjustable spacing
+* 悬浮窗显示 · Floating overlay
+* 不拦截触摸操作 · Non-interactive overlay
+* 全新 Compose UI · Modern Jetpack Compose UI
+* Liquid Glass 风格交互 · Liquid Glass-inspired interactions
 
-## Screenshots
+## 界面 · Screenshots
 
+> 界面截图将在后续版本中加入。
 > Screenshots will be added in a future update.
 
-## Download
+## 下载 · Download
 
-### Latest Release
+### 最新版本 · Latest Release
 
 **XUELi Watermark Tool v2.0.0**
 
-[Download APK](https://github.com/Eason206/XUELiWatermarkTool/releases/tag/v2.0)
+[下载 APK · Download APK](https://github.com/Eason206/XUELiWatermarkTool/releases/tag/v2.0)
+
+需要 Android 8.0（API 26）或更高版本。
 
 Android 8.0 (API 26) or later is required.
 
-## Installation
+## 安装 · Installation
 
-1. Download the latest APK from [Releases](https://github.com/Eason206/XUELiWatermarkTool/releases).
-2. Install the APK on your Android device.
-3. Grant the **Display over other apps** permission.
-4. Open XUELi Watermark Tool and configure your watermark.
-5. Start the watermark overlay.
+1. 从 [Releases](https://github.com/Eason206/XUELiWatermarkTool/releases) 下载最新 APK。
+   Download the latest APK from Releases.
 
-## Technical Details
+2. 安装 APK。
+   Install the APK on your Android device.
 
-* **Language:** Kotlin
-* **UI:** Jetpack Compose
-* **UI Library:** Miuix
-* **Graphics / Effects:** AndroidLiquidGlass / Backdrop
-* **Minimum SDK:** Android 8.0 (API 26)
-* **Target SDK:** Android 15 (API 35)
-* **Compile SDK:** Android 16 (API 37)
-* **Gradle:** 9.6.1
-* **Kotlin:** 2.3.20
+3. 授予“显示在其他应用上层”权限。
+   Grant the **Display over other apps** permission.
 
-The watermark overlay uses `TYPE_APPLICATION_OVERLAY` and `FLAG_NOT_TOUCHABLE`, allowing the watermark to remain visible without intercepting touch events from the application underneath.
+4. 打开 XUELi Watermark Tool 并设置水印。
+   Open XUELi Watermark Tool and configure the watermark.
+
+5. 启动悬浮水印。
+   Start the watermark overlay.
+
+## 技术信息 · Technical Details
+
+| 项目                 | 信息                            |
+| ------------------ | ----------------------------- |
+| 开发语言 · Language    | Kotlin                        |
+| UI 框架 · UI         | Jetpack Compose               |
+| UI 库 · UI Library  | Miuix                         |
+| 图形效果 · Graphics    | AndroidLiquidGlass / Backdrop |
+| 最低版本 · Minimum SDK | Android 8.0 (API 26)          |
+| 目标版本 · Target SDK  | Android 15 (API 35)           |
+| 编译版本 · Compile SDK | Android 16 (API 37)           |
+| Kotlin             | 2.3.20                        |
+| Gradle             | 9.6.1                         |
+
+水印悬浮层使用 `TYPE_APPLICATION_OVERLAY` 和 `FLAG_NOT_TOUCHABLE`，因此不会拦截下方应用的触摸操作。
+
+The watermark overlay uses `TYPE_APPLICATION_OVERLAY` and `FLAG_NOT_TOUCHABLE`, so it does not intercept touch events from the application underneath.
+
+水印设置使用 `SharedPreferences` 保存在本地。
 
 Watermark settings are stored locally using `SharedPreferences`.
 
-## Version History
+## 更新历史 · Version History
 
 ### v2.0.0
 
-* Completely redesigned UI
-* New application icon
-* Liquid Glass-inspired interactions
-* Migrated to Jetpack Compose
-* Migrated to Miuix UI
-* Improved overall visual experience
+* 全新 UI 设计 · Completely redesigned UI
+* 全新应用图标 · New application icon
+* Liquid Glass 风格交互 · Liquid Glass-inspired interactions
+* 迁移至 Jetpack Compose · Migrated to Jetpack Compose
+* 迁移至 Miuix UI · Migrated to Miuix UI
+* 全面优化视觉体验 · Improved overall visual experience
 
 ### v1.0
 
-* Initial release
-* Original UI
-* Custom two-line watermark
-* Adjustable font size, opacity and spacing
-* Floating overlay support
+* 首个公开版本 · Initial public release
+* 原版 UI · Original UI
+* 自定义双行水印 · Custom two-line watermark
+* 可调字体大小、透明度和间距 · Adjustable font size, opacity and spacing
+* 悬浮窗支持 · Floating overlay support
 
-## License
+## 开源 · Open Source
 
-This project is for personal and educational use.
+本项目使用 Kotlin 开发，并以学习、研究和个人使用为主要目的。
+
+This project is developed with Kotlin and is primarily intended for learning, research, and personal use.
 
 ---
 
@@ -101,6 +121,7 @@ This project is for personal and educational use.
 
 **XUELi Watermark Tool**
 
+由 [Eason206](https://github.com/Eason206) 制作
 Made by [Eason206](https://github.com/Eason206)
 
 </div>
