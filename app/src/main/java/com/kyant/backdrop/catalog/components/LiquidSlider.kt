@@ -18,6 +18,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.drawscope.scale
@@ -83,28 +84,20 @@ fun LiquidSlider(
                 pressedScale = 1.5f,
                 onDragStarted = {},
                 onDragStopped = {},
-                onDrag = { oldValue, dragAmount ->
-                    if (!didDrag) {
-                        didDrag = dragAmount != 0f
-                    }
-
+                onDrag = { _, dragAmount ->
                     val delta =
                         (valueRange.endInclusive - valueRange.start) *
-                            (dragAmount / trackWidth)
+                            (dragAmount.x / trackWidth)
 
-                    val newValue = if (isLtr) {
-                        (oldValue + delta).coerceIn(valueRange)
-                    } else {
-                        (oldValue - delta).coerceIn(valueRange)
-                    }
+                    val newValue =
+                        (targetValue + if (isLtr) delta else -delta)
+                            .coerceIn(valueRange)
 
+                    updateValue(newValue)
                     onValueChange(newValue)
-                    newValue
                 }
             )
-
         }
-
         LaunchedEffect(dampedDragAnimation) {
             snapshotFlow { value() }
                 .collectLatest { value ->
@@ -216,6 +209,13 @@ fun LiquidSlider(
         )
     }
 }
+
+
+
+
+
+
+
 
 
 

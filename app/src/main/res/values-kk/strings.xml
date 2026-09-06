@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XUELi Су таңбасы құралы</string>
+    <string name="home">Басты бет</string>
+    <string name="about">Қолданба туралы</string>
+    <string name="language">Тіл</string>
+    <string name="github">GitHub</string>
+    <string name="open_source">Ашық бастапқы код</string>
+    <string name="open_source_project">Ашық бастапқы код жобасы</string>
+    <string name="credits">Алғыс</string>
+    <string name="version">Нұсқа %1$s</string>
+    <string name="copyright">© 2026 XUELi</string>
+    <string name="credits_text">Miuix UI фреймворкін жасаған авторлар мен үлес қосушыларға, сондай-ақ AndroidLiquidGlass / Backdrop жобасы үшін Kyant0-ға ерекше алғыс.</string>
+    <string name="watermark_service_description">Пайдаланушы сұраған тұрақты интерактивті емес экрандық су таңбасы қызметі.</string>
+
+    <string name="language_simplified_chinese">简体中文</string>
+    <string name="language_traditional_chinese">繁體中文</string>
+    <string name="language_english">English</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_kazakh">Қазақша</string>
+    <string name="language_uyghur">ئۇيغۇرچە</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_kyrgyz">Кыргызча</string>
+    <string name="language_french">Français</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="watermark_title">Су таңбасы</string>
+    <string name="overlay_permission_status_granted">Қабатта көрсету рұқсаты: берілді</string>
+    <string name="overlay_permission_status_denied">Қабатта көрсету рұқсаты: берілмеді</string>
+    <string name="grant_overlay_permission">Қабатта көрсету рұқсатын беру</string>
+    <string name="running_status_running">Күйі: жұмыс істеп тұр</string>
+    <string name="running_status_stopped">Күйі: тоқтатылды</string>
+    <string name="first_line_text">Бірінші жол мәтіні</string>
+    <string name="second_line_text">Екінші жол мәтіні</string>
+    <string name="font_size">Қаріп өлшемі: %1$d sp</string>
+    <string name="opacity">Мөлдірлік: %1$d%%</string>
+    <string name="spacing">Аралық: %1$d dp</string>
+    <string name="start_watermark">Су таңбасын іске қосу</string>
+    <string name="stop_watermark">Су таңбасын тоқтату</string>
+</resources>
+

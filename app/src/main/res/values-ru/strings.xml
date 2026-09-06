@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Инструмент водяных знаков XUELi</string>
+    <string name="home">Главная</string>
+    <string name="about">О приложении</string>
+    <string name="language">Язык</string>
+    <string name="github">GitHub</string>
+    <string name="open_source">Открытый исходный код</string>
+    <string name="open_source_project">Проект с открытым исходным кодом</string>
+    <string name="credits">Благодарности</string>
+    <string name="version">Версия %1$s</string>
+    <string name="copyright">© 2026 XUELi</string>
+    <string name="credits_text">Особая благодарность авторам и участникам Miuix за UI-фреймворк Miuix, а также Kyant0 за AndroidLiquidGlass / Backdrop.</string>
+    <string name="watermark_service_description">Постоянная неинтерактивная служба экранного водяного знака, запрошенная пользователем.</string>
+
+    <string name="language_simplified_chinese">简体中文</string>
+    <string name="language_traditional_chinese">繁體中文</string>
+    <string name="language_english">English</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_kazakh">Қазақша</string>
+    <string name="language_uyghur">ئۇيغۇرچە</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_kyrgyz">Кыргызча</string>
+    <string name="language_french">Français</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="watermark_title">Водяной знак</string>
+    <string name="overlay_permission_status_granted">Разрешение поверх других окон: предоставлено</string>
+    <string name="overlay_permission_status_denied">Разрешение поверх других окон: не предоставлено</string>
+    <string name="grant_overlay_permission">Предоставить разрешение</string>
+    <string name="running_status_running">Статус: работает</string>
+    <string name="running_status_stopped">Статус: остановлено</string>
+    <string name="first_line_text">Текст первой строки</string>
+    <string name="second_line_text">Текст второй строки</string>
+    <string name="font_size">Размер шрифта: %1$d sp</string>
+    <string name="opacity">Непрозрачность: %1$d%%</string>
+    <string name="spacing">Интервал: %1$d dp</string>
+    <string name="start_watermark">Запустить водяной знак</string>
+    <string name="stop_watermark">Остановить водяной знак</string>
+</resources>
+

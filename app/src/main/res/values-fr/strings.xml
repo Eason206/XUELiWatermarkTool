@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Outil de filigrane XUELi</string>
+    <string name="home">Accueil</string>
+    <string name="about">À propos</string>
+    <string name="language">Langue</string>
+    <string name="github">GitHub</string>
+    <string name="open_source">Open source</string>
+    <string name="open_source_project">Projet open source</string>
+    <string name="credits">Crédits</string>
+    <string name="version">Version %1$s</string>
+    <string name="copyright">© 2026 XUELi</string>
+    <string name="credits_text">Un grand merci aux auteurs et contributeurs de Miuix pour le framework d’interface Miuix, ainsi qu’à Kyant0 pour AndroidLiquidGlass / Backdrop.</string>
+    <string name="watermark_service_description">Service de filigrane d’écran persistant et non interactif demandé par l’utilisateur.</string>
+
+    <string name="language_simplified_chinese">简体中文</string>
+    <string name="language_traditional_chinese">繁體中文</string>
+    <string name="language_english">English</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_kazakh">Қазақша</string>
+    <string name="language_uyghur">ئۇيغۇرچە</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_kyrgyz">Кыргызча</string>
+    <string name="language_french">Français</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="watermark_title">Filigrane</string>
+    <string name="overlay_permission_status_granted">Autorisation de superposition : accordée</string>
+    <string name="overlay_permission_status_denied">Autorisation de superposition : non accordée</string>
+    <string name="grant_overlay_permission">Accorder l’autorisation de superposition</string>
+    <string name="running_status_running">État : en cours</string>
+    <string name="running_status_stopped">État : arrêté</string>
+    <string name="first_line_text">Texte de la première ligne</string>
+    <string name="second_line_text">Texte de la deuxième ligne</string>
+    <string name="font_size">Taille de police : %1$d sp</string>
+    <string name="opacity">Opacité : %1$d%%</string>
+    <string name="spacing">Espacement : %1$d dp</string>
+    <string name="start_watermark">Démarrer le filigrane</string>
+    <string name="stop_watermark">Arrêter le filigrane</string>
+</resources>
+

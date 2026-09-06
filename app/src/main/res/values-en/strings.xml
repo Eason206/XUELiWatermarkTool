@@ -11,17 +11,18 @@
     <string name="version">Version %1$s</string>
     <string name="copyright">© 2026 XUELi</string>
     <string name="credits_text">Special thanks to the Miuix authors and contributors for the Miuix UI framework, and to Kyant0 for AndroidLiquidGlass / Backdrop.</string>
-    <string name="language_simplified_chinese">Simplified Chinese</string>
-    <string name="language_traditional_chinese">Traditional Chinese</string>
-    <string name="language_english">English</string>
-    <string name="language_russian">Russian</string>
-    <string name="language_kazakh">Kazakh</string>
-    <string name="language_uyghur">Uyghur</string>
-    <string name="language_german">German</string>
-    <string name="language_kyrgyz">Kyrgyz</string>
-    <string name="language_french">French</string>
-    <string name="language_hindi">Hindi</string>
     <string name="watermark_service_description">Persistent non-interactive screen watermark service requested by the user.</string>
+
+    <string name="language_simplified_chinese">简体中文</string>
+    <string name="language_traditional_chinese">繁體中文</string>
+    <string name="language_english">English</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_kazakh">Қазақша</string>
+    <string name="language_uyghur">ئۇيغۇرچە</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_kyrgyz">Кыргызча</string>
+    <string name="language_french">Français</string>
+    <string name="language_hindi">हिन्दी</string>
     <string name="watermark_title">Watermark</string>
     <string name="overlay_permission_status_granted">Overlay permission: Granted</string>
     <string name="overlay_permission_status_denied">Overlay permission: Not granted</string>
@@ -36,6 +37,4 @@
     <string name="start_watermark">Start watermark</string>
     <string name="stop_watermark">Stop watermark</string>
 </resources>
-
-
 

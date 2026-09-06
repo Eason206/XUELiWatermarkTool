@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">悬浮水印</string>
+    <string name="home">主页</string>
+    <string name="about">关于</string>
+    <string name="language">语言</string>
+    <string name="github">GitHub</string>
+    <string name="open_source">开源</string>
+    <string name="open_source_project">开源项目</string>
+    <string name="credits">致谢</string>
+    <string name="version">版本 %1$s</string>
+    <string name="copyright">© 2026 XUELi</string>
+    <string name="credits_text">特别感谢 Miuix 作者及贡献者提供的 Miuix UI 框架，以及 Kyant0 开发的 AndroidLiquidGlass / Backdrop。</string>
+    <string name="watermark_service_description">用户请求的持久非交互式屏幕悬浮水印服务。</string>
+
+    <string name="language_simplified_chinese">简体中文</string>
+    <string name="language_traditional_chinese">繁體中文</string>
+    <string name="language_english">English</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_kazakh">Қазақша</string>
+    <string name="language_uyghur">ئۇيغۇرچە</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_kyrgyz">Кыргызча</string>
+    <string name="language_french">Français</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="watermark_title">水印</string>
+    <string name="overlay_permission_status_granted">悬浮窗权限：已授予</string>
+    <string name="overlay_permission_status_denied">悬浮窗权限：未授予</string>
+    <string name="grant_overlay_permission">授予悬浮窗权限</string>
+    <string name="running_status_running">状态：运行中</string>
+    <string name="running_status_stopped">状态：已停止</string>
+    <string name="first_line_text">第一行文字</string>
+    <string name="second_line_text">第二行文字</string>
+    <string name="font_size">字体大小：%1$d sp</string>
+    <string name="opacity">不透明度：%1$d%%</string>
+    <string name="spacing">间距：%1$d dp</string>
+    <string name="start_watermark">启动水印</string>
+    <string name="stop_watermark">停止水印</string>
+</resources>
+

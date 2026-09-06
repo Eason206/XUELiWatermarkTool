@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XUELi Watermark Tool</string>
+    <string name="home">होम</string>
+    <string name="about">जानकारी</string>
+    <string name="language">भाषा</string>
+    <string name="github">GitHub</string>
+    <string name="open_source">ओपन सोर्स</string>
+    <string name="open_source_project">ओपन सोर्स प्रोजेक्ट</string>
+    <string name="credits">श्रेय</string>
+    <string name="version">संस्करण %1$s</string>
+    <string name="copyright">© 2026 XUELi</string>
+    <string name="credits_text">Miuix UI फ्रेमवर्क के लिए Miuix के लेखकों और योगदानकर्ताओं तथा AndroidLiquidGlass / Backdrop के लिए Kyant0 को विशेष धन्यवाद।</string>
+    <string name="watermark_service_description">उपयोगकर्ता द्वारा अनुरोधित स्थायी गैर-इंटरैक्टिव स्क्रीन वॉटरमार्क सेवा।</string>
+
+    <string name="language_simplified_chinese">简体中文</string>
+    <string name="language_traditional_chinese">繁體中文</string>
+    <string name="language_english">English</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_kazakh">Қазақша</string>
+    <string name="language_uyghur">ئۇيغۇرچە</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_kyrgyz">Кыргызча</string>
+    <string name="language_french">Français</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="watermark_title">वॉटरमार्क</string>
+    <string name="overlay_permission_status_granted">ओवरले अनुमति: दी गई</string>
+    <string name="overlay_permission_status_denied">ओवरले अनुमति: नहीं दी गई</string>
+    <string name="grant_overlay_permission">ओवरले अनुमति दें</string>
+    <string name="running_status_running">स्थिति: चल रहा है</string>
+    <string name="running_status_stopped">स्थिति: रुका हुआ</string>
+    <string name="first_line_text">पहली पंक्ति का टेक्स्ट</string>
+    <string name="second_line_text">दूसरी पंक्ति का टेक्स्ट</string>
+    <string name="font_size">फ़ॉन्ट आकार: %1$d sp</string>
+    <string name="opacity">अपारदर्शिता: %1$d%%</string>
+    <string name="spacing">अंतर: %1$d dp</string>
+    <string name="start_watermark">वॉटरमार्क शुरू करें</string>
+    <string name="stop_watermark">वॉटरमार्क रोकें</string>
+</resources>
+

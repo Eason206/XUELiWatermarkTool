@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XUELi Wasserzeichen-Tool</string>
+    <string name="home">Startseite</string>
+    <string name="about">Über</string>
+    <string name="language">Sprache</string>
+    <string name="github">GitHub</string>
+    <string name="open_source">Open Source</string>
+    <string name="open_source_project">Open-Source-Projekt</string>
+    <string name="credits">Danksagungen</string>
+    <string name="version">Version %1$s</string>
+    <string name="copyright">© 2026 XUELi</string>
+    <string name="credits_text">Besonderer Dank gilt den Autoren und Mitwirkenden von Miuix für das Miuix-UI-Framework sowie Kyant0 für AndroidLiquidGlass / Backdrop.</string>
+    <string name="watermark_service_description">Vom Benutzer angeforderter dauerhafter, nicht interaktiver Bildschirm-Wasserzeichendienst.</string>
+
+    <string name="language_simplified_chinese">简体中文</string>
+    <string name="language_traditional_chinese">繁體中文</string>
+    <string name="language_english">English</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_kazakh">Қазақша</string>
+    <string name="language_uyghur">ئۇيغۇرچە</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_kyrgyz">Кыргызча</string>
+    <string name="language_french">Français</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="watermark_title">Wasserzeichen</string>
+    <string name="overlay_permission_status_granted">Overlay-Berechtigung: Erteilt</string>
+    <string name="overlay_permission_status_denied">Overlay-Berechtigung: Nicht erteilt</string>
+    <string name="grant_overlay_permission">Overlay-Berechtigung erteilen</string>
+    <string name="running_status_running">Status: Läuft</string>
+    <string name="running_status_stopped">Status: Gestoppt</string>
+    <string name="first_line_text">Text der ersten Zeile</string>
+    <string name="second_line_text">Text der zweiten Zeile</string>
+    <string name="font_size">Schriftgröße: %1$d sp</string>
+    <string name="opacity">Deckkraft: %1$d%%</string>
+    <string name="spacing">Abstand: %1$d dp</string>
+    <string name="start_watermark">Wasserzeichen starten</string>
+    <string name="stop_watermark">Wasserzeichen stoppen</string>
+</resources>
+

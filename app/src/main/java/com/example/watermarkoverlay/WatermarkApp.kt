@@ -1,3 +1,5 @@
+﻿@file:Suppress("UnusedPrivateMember")
+
 package com.example.watermarkoverlay
 
 import androidx.compose.foundation.background
@@ -7,17 +9,18 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import top.yukonga.miuix.kmp.basic.Button
-import top.yukonga.miuix.kmp.basic.ButtonDefaults
 import com.kyant.backdrop.backdrops.rememberCanvasBackdrop
 import com.kyant.backdrop.catalog.components.LiquidSlider
+import top.yukonga.miuix.kmp.basic.Button
+import top.yukonga.miuix.kmp.basic.ButtonDefaults
 import top.yukonga.miuix.kmp.basic.Text
 import top.yukonga.miuix.kmp.basic.TextField
 import top.yukonga.miuix.kmp.theme.ColorSchemeMode
@@ -59,46 +62,102 @@ private fun WatermarkScreen(
     onStopWatermark: () -> Unit,
 ) {
     Column(
-        modifier = Modifier.fillMaxSize().background(Color.White).verticalScroll(rememberScrollState()).padding(24.dp),
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color.White)
+            .verticalScroll(rememberScrollState())
+            .padding(24.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        Text(text = "悬浮水印")
-        Text(text = "悬浮窗权限：${if (overlayPermissionGranted) "已授予" else "未授予"}")
+        Text(text = stringResource(R.string.watermark_title))
+
+        Text(
+            text = stringResource(
+                if (overlayPermissionGranted) {
+                    R.string.overlay_permission_status_granted
+                } else {
+                    R.string.overlay_permission_status_denied
+                }
+            )
+        )
+
         if (!overlayPermissionGranted) {
-            Button(onClick = onRequestOverlayPermission) { Text("授予悬浮窗权限") }
+            Button(onClick = onRequestOverlayPermission) {
+                Text(stringResource(R.string.grant_overlay_permission))
+            }
         }
-        Text(text = "运行状态：${if (watermarkRunning) "运行中" else "未启动"}")
+
+        Text(
+            text = stringResource(
+                if (watermarkRunning) {
+                    R.string.running_status_running
+                } else {
+                    R.string.running_status_stopped
+                }
+            )
+        )
+
         TextField(
             value = settings.lineOne,
             onValueChange = { onSettingsChange(settings.copy(lineOne = it)) },
-            label = "第一行文字",
+            label = stringResource(R.string.first_line_text),
             modifier = Modifier.fillMaxWidth(),
             singleLine = true,
         )
+
         TextField(
             value = settings.lineTwo,
             onValueChange = { onSettingsChange(settings.copy(lineTwo = it)) },
-            label = "第二行文字",
+            label = stringResource(R.string.second_line_text),
             modifier = Modifier.fillMaxWidth(),
             singleLine = true,
         )
-        SettingSlider("字体大小：${settings.textSizeSp} sp", settings.textSizeSp.toFloat(), 12f..40f, 27) {
+
+        SettingSlider(
+            label = stringResource(R.string.font_size, settings.textSizeSp),
+            value = settings.textSizeSp.toFloat(),
+            valueRange = 12f..40f,
+            steps = 27,
+        ) {
             onSettingsChange(settings.copy(textSizeSp = it.toInt()))
         }
-        SettingSlider("透明度：${settings.opacityPercent}%", settings.opacityPercent.toFloat(), 10f..100f, 89) {
+
+        SettingSlider(
+            label = stringResource(R.string.opacity, settings.opacityPercent),
+            value = settings.opacityPercent.toFloat(),
+            valueRange = 10f..100f,
+            steps = 89,
+        ) {
             onSettingsChange(settings.copy(opacityPercent = it.toInt()))
         }
-        SettingSlider("组间距：${settings.spacingDp} dp", settings.spacingDp.toFloat(), 20f..200f, 179) {
+
+        SettingSlider(
+            label = stringResource(R.string.spacing, settings.spacingDp),
+            value = settings.spacingDp.toFloat(),
+            valueRange = 20f..200f,
+            steps = 179,
+        ) {
             onSettingsChange(settings.copy(spacingDp = it.toInt()))
         }
-        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
             Button(
                 onClick = onStartWatermark,
                 modifier = Modifier.weight(1f),
                 colors = ButtonDefaults.buttonColorsPrimary(),
-            ) { Text("启动水印") }
-            Button(onClick = onStopWatermark, modifier = Modifier.weight(1f), enabled = watermarkRunning) {
-                Text("停止水印")
+            ) {
+                Text(stringResource(R.string.start_watermark))
+            }
+
+            Button(
+                onClick = onStopWatermark,
+                modifier = Modifier.weight(1f),
+                enabled = watermarkRunning,
+            ) {
+                Text(stringResource(R.string.stop_watermark))
             }
         }
     }
@@ -114,6 +173,7 @@ private fun SettingSlider(
 ) {
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
         Text(text = label)
+
         LiquidSlider(
             value = { value },
             onValueChange = onValueChange,

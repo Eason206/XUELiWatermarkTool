@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XUELi Көмөлөтмө куралы</string>
+    <string name="home">Башкы бет</string>
+    <string name="about">Колдонмо жөнүндө</string>
+    <string name="language">Тил</string>
+    <string name="github">GitHub</string>
+    <string name="open_source">Ачык булак</string>
+    <string name="open_source_project">Ачык булактуу долбоор</string>
+    <string name="credits">Ыраазычылык</string>
+    <string name="version">Версия %1$s</string>
+    <string name="copyright">© 2026 XUELi</string>
+    <string name="credits_text">Miuix UI алкагын түзгөн Miuix авторлоруна жана салым кошуучуларына, ошондой эле AndroidLiquidGlass / Backdrop үчүн Kyant0-га өзгөчө ыраазычылык.</string>
+    <string name="watermark_service_description">Колдонуучу сураган туруктуу, интерактивдүү эмес экрандык көмөлөтмө кызматы.</string>
+
+    <string name="language_simplified_chinese">简体中文</string>
+    <string name="language_traditional_chinese">繁體中文</string>
+    <string name="language_english">English</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_kazakh">Қазақша</string>
+    <string name="language_uyghur">ئۇيغۇرچە</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_kyrgyz">Кыргызча</string>
+    <string name="language_french">Français</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="watermark_title">Суу белгиси</string>
+    <string name="overlay_permission_status_granted">Үстүнөн көрсөтүү уруксаты: берилди</string>
+    <string name="overlay_permission_status_denied">Үстүнөн көрсөтүү уруксаты: берилген эмес</string>
+    <string name="grant_overlay_permission">Үстүнөн көрсөтүү уруксатын берүү</string>
+    <string name="running_status_running">Абалы: иштеп жатат</string>
+    <string name="running_status_stopped">Абалы: токтотулду</string>
+    <string name="first_line_text">Биринчи саптын тексти</string>
+    <string name="second_line_text">Экинчи саптын тексти</string>
+    <string name="font_size">Шрифт өлчөмү: %1$d sp</string>
+    <string name="opacity">Тунуктугу: %1$d%%</string>
+    <string name="spacing">Аралыгы: %1$d dp</string>
+    <string name="start_watermark">Суу белгисин баштоо</string>
+    <string name="stop_watermark">Суу белгисин токтотуу</string>
+</resources>
+

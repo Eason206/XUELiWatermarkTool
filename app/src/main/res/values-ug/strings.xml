@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XUELi سۇ بەلگىسى قورالى</string>
+    <string name="home">باش بەت</string>
+    <string name="about">پروگرامما ھەققىدە</string>
+    <string name="language">تىل</string>
+    <string name="github">GitHub</string>
+    <string name="open_source">ئوچۇق مەنبە</string>
+    <string name="open_source_project">ئوچۇق مەنبەلىك تۈر</string>
+    <string name="credits">ئالاھىدە تەشەككۈر</string>
+    <string name="version">نەشرى %1$s</string>
+    <string name="copyright">© 2026 XUELi</string>
+    <string name="credits_text">Miuix UI رامكىسىنى تەمىنلىگەن Miuix ئاپتورلىرى ۋە تۆھپىكارلىرىغا، شۇنداقلا AndroidLiquidGlass / Backdrop ئۈچۈن Kyant0 غا ئالاھىدە تەشەككۈر.</string>
+    <string name="watermark_service_description">ئىشلەتكۈچى تەلەپ قىلغان دائىملىق، ئۆزئارا تەسىر كۆرسەتمەيدىغان ئېكران سۇ بەلگىسى مۇلازىمىتى.</string>
+
+    <string name="language_simplified_chinese">简体中文</string>
+    <string name="language_traditional_chinese">繁體中文</string>
+    <string name="language_english">English</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_kazakh">Қазақша</string>
+    <string name="language_uyghur">ئۇيغۇرچە</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_kyrgyz">Кыргызча</string>
+    <string name="language_french">Français</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="watermark_title">سۇ بەلگىسى</string>
+    <string name="overlay_permission_status_granted">ئۈستىگە كۆرسىتىش ھوقۇقى: بېرىلدى</string>
+    <string name="overlay_permission_status_denied">ئۈستىگە كۆرسىتىش ھوقۇقى: بېرىلمىدى</string>
+    <string name="grant_overlay_permission">ئۈستىگە كۆرسىتىش ھوقۇقىنى بېرىش</string>
+    <string name="running_status_running">ھالەت: ئىشلەۋاتىدۇ</string>
+    <string name="running_status_stopped">ھالەت: توختىتىلدى</string>
+    <string name="first_line_text">بىرىنچى قۇر تېكىستى</string>
+    <string name="second_line_text">ئىككىنچى قۇر تېكىستى</string>
+    <string name="font_size">خەت چوڭلۇقى: %1$d sp</string>
+    <string name="opacity">ئوچۇقلۇق: %1$d%%</string>
+    <string name="spacing">ئارىلىق: %1$d dp</string>
+    <string name="start_watermark">سۇ بەلگىسىنى باشلاش</string>
+    <string name="stop_watermark">سۇ بەلگىسىنى توختىتىش</string>
+</resources>
+
